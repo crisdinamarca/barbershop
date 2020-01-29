@@ -1,0 +1,13 @@
+.boton__primario{
+    border-radius: 50px;
+    background-color: $nickel;
+    border: none;
+    padding: 10px 20px !important;
+
+    &:hover{
+        background-color: $lightgray;
+    }
+    &:focus{
+        background-color: $nickel !important;
+    }
+}

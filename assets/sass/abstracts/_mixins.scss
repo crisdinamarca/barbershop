@@ -1,0 +1,15 @@
+@mixin mi__centrar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin mi__padding{
+    padding: 5px 10px 8px 3px;
+    border-radius: 5px;
+}
+@mixin playfair__bold{
+    font-family: $playfair;
+    font-size: $font-size-xx-large;
+    font-weight: $font-weight-bold;
+    font-style: italic;
+}
